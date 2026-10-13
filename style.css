@@ -1,0 +1,102 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { background: white; color: #555;
+    font-family: Arial, sans-serif; line-height: 1.6; }
+
+.container { width: 85%; max-width: 1100px; margin: auto; }
+
+header { background: #17233c; padding: 20px 0; }
+
+.nav { display: flex; justify-content: space-between;
+    align-items: center; }
+
+.logo { color: white; text-decoration: none;
+    font-size: 24px; font-weight: bold; }
+
+nav { display: flex; gap: 30px; }
+
+nav a { color: #ddd; text-decoration: none; }
+
+nav a:hover, nav a.active { color: white; }
+
+.home { padding: 100px 0; display: flex;
+    justify-content: space-between; align-items: center; }
+
+.home-text { max-width: 650px; }
+
+.small-title { color: #17233c; font-size: 13px;
+    font-weight: bold; letter-spacing: 2px; }
+
+h1 { color: #17233c; font-size: 65px;
+    line-height: 1.1; margin: 15px 0 25px; }
+
+h2 { color: #17233c; font-size: 30px;
+    margin-bottom: 20px; }
+
+h3 { color: #17233c; margin-bottom: 8px; }
+
+p { color: #666; }
+
+.intro { font-size: 18px;
+    margin-bottom: 25px; }
+
+.button { display: inline-block; background: #17233c;
+    color: white; padding: 10px 20px;
+    text-decoration: none; margin-right: 10px; }
+
+.button.outline { background: white;
+    color: #17233c; border: 1px solid #17233c; }
+
+.photo { width: 270px; height: 270px; }
+
+.photo img { width: 100%; height: 100%;
+    object-fit: cover; }
+
+.section { padding: 60px 0; }
+
+.section p { max-width: 800px; margin-bottom: 12px; }
+
+.skills { display: flex; gap: 40px; }
+
+.skills div { flex: 1; }
+
+.contact { padding: 70px 0;
+    text-align: center; }
+
+.page-title { padding: 70px 0; }
+
+.page-title h1 { font-size: 55px; }
+
+.resume-section { display: flex;
+    gap: 60px; padding: 40px 0;
+    border-top: 1px solid #eee; }
+
+.resume-section h2 { width: 220px;
+    font-size: 22px; }
+
+.resume-content { flex: 1; }
+
+.resume-content p { margin-bottom: 12px; }
+
+.resume-content strong { color: #17233c; }
+
+.project { margin-bottom: 30px; }
+
+.details { max-width: 800px; }
+
+.details p { padding: 12px 0;
+    border-bottom: 1px solid #eee; }
+
+.details span { display: inline-block;
+    width: 180px; color: #888; }
+
+.interests { display: flex; gap: 40px; }
+
+.interests p { color: #17233c;
+    font-weight: bold; }
+
+footer { margin-top: 50px; padding: 25px 7%;
+    border-top: 1px solid #eee;
+    display: flex; justify-content: space-between;background-color:#17233c; }
+
+footer p { color: #ffffff; font-size: 13px; }
